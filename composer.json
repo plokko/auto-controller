@@ -1,0 +1,25 @@
+{
+    "name": "plokko/auto-controller",
+    "description": "",
+    "keywords": [
+        "laravel",
+        "controller",
+        "helper",
+        "auto"
+    ],
+    "require": {
+        "php": ">=7.2",
+        "plokko/resource-query": "dev-master"
+    },
+    "require-dev": {},
+    "authors": [
+        {
+            "name": "Francesco Pellerone"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "plokko\\AutoController\\": "src"
+        }
+    }
+}
